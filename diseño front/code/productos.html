@@ -1,0 +1,252 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(99,121,136)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: Inter, &quot;Noto Sans&quot;, sans-serif;"
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f3f4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111518]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em]">
+               <a href="paneldecontrol.html">VentaNet</a>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="personas.html">Personas</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="usuarios.html">Usuarios</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="productos.html">Productos</a>
+              <a class="text-[#111518] text-sm font-medium leading-normal" href="factura.html">Facturas</a>
+            </div>
+            <div
+              onclick="window.location.href='iniciodesesion.html';"
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCt2wCp1fMWWdAiqOOLyKFkvFZ8QWBiVfvfASesy96LkFZrgMWxoY1abIOcoHLlqqIA8o2x0mtTKcPPOUIRt5-4llrIy_ZgQUU-k2MKw_6UEr_BwvOrrmK-40JWhmj6S2kZjOzxxnTjq6JP0rr66l4KQ1k8QmEvmjkSmiT92a4YalK6tKVLMwJKI8eJJ4jWFlex2Mts0Hry77GGh_MPuJTftrMPRxZ8xjnj3r0do0Nt9cWeLKxGRU6ZCHpWv5PMi8sqDycUD3pGLWM");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight min-w-72">Registrar</p></div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Nombre del Producto</p>
+                <input
+                  placeholder="Ingresa el nombre"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Categoria</p>
+                <select
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 bg-[image:--select-button-svg] placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                >
+                  <option value="">-- Selecciona una categoria--</option>
+                  <option value="two">Bebidas</option>
+                  <option value="three">Granos</option>
+                  <option value="three">Carnes</option>
+                  <option value="three">Embutidos</option>
+                  <option value="three">Frutas</option>
+                  <option value="three">Verduras</option>
+                </select>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Precio de compra</p>
+                <input
+                  placeholder="Ingresa el precio"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Precio de venta</p>
+                <input
+                  placeholder="Ingresa el precio"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Cantidad</p>
+                <input
+                  placeholder="Ingresa cantidad"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#111518] text-base font-medium leading-normal pb-2">Codigo de barras</p>
+                <input
+                  placeholder="Ingresa codigo"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111518] focus:outline-0 focus:ring-0 border border-[#dce1e5] bg-white focus:border-[#dce1e5] h-14 placeholder:text-[#637988] p-[15px] text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#1993e5] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Registrar</span>
+              </button>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight min-w-72">Productos registrados</p>
+            </div>
+            <div class="flex items-center gap-2 px-4 py-3">
+                <input
+                type="text"
+                  id="buscador"
+                  placeholder="Buscar persona..."
+                  class="form-input w-full max-w-xs rounded-xl border border-[#dce1e5] bg-white h-10 px-4 text-sm text-[#111518] focus:outline-0 focus:ring-0"
+                  onkeyup="filtrarTabla()"
+                />
+              </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#dce1e5] bg-white">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-white">
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 px-4 py-3 text-left text-[#111518] w-[400px] text-sm font-medium leading-normal">
+                        Nombre del Producto
+                      </th>
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 px-4 py-3 text-left text-[#111518] w-[400px] text-sm font-medium leading-normal">
+                        Categoria
+                      </th>
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 px-4 py-3 text-left text-[#111518] w-[400px] text-sm font-medium leading-normal">Precio de Compra</th>
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 px-4 py-3 text-left text-[#111518] w-[400px] text-sm font-medium leading-normal">
+                        Precio de Venta
+                      </th>
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 px-4 py-3 text-left text-[#111518] w-[400px] text-sm font-medium leading-normal">
+                        Cantidad
+                      </th>
+                      <th class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 px-4 py-3 text-left text-[#111518] w-60 text-[#637988] text-sm font-medium leading-normal">
+                        Acciones
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#dce1e5]">
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111518] text-sm font-normal leading-normal">
+                        Leche entera Alqueria 1 Litro
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">Bebidas</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$5.000</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">6.000</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">
+                        110
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 h-[72px] px-4 py-2 w-60 text-[#637988] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Editar | Eliminar
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce1e5]">
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111518] text-sm font-normal leading-normal">
+                        Coca Cola 1 Litro
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">Lacteos</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$6.000</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$6.800</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">
+                        54
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 h-[72px] px-4 py-2 w-60 text-[#637988] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Editar | Eliminar
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce1e5]">
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111518] text-sm font-normal leading-normal">
+                        Arroz Zulia 500g
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">Granos</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$3.000</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$3.600</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">
+                        230
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 h-[72px] px-4 py-2 w-60 text-[#637988] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Editar | Eliminar
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce1e5]">
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111518] text-sm font-normal leading-normal">
+                        Salchicha Zenu x3
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">Embutidos</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$2.100</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$2.900</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">
+                        32
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 h-[72px] px-4 py-2 w-60 text-[#637988] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Editar | Eliminar
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce1e5]">
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111518] text-sm font-normal leading-normal">
+                        Queso parmesano Alpina 40g
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">Lacteos</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$2.300</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">$3.000</td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637988] text-sm font-normal leading-normal">
+                        15
+                      </td>
+                      <td class="table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720 h-[72px] px-4 py-2 w-60 text-[#637988] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Editar | Eliminar
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-120{display: none;}}
+                @container(max-width:240px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-240{display: none;}}
+                @container(max-width:360px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-360{display: none;}}
+                @container(max-width:480px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-480{display: none;}}
+                @container(max-width:600px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-600{display: none;}}
+                @container(max-width:720px){.table-9c5edd64-145c-4963-8403-8cfa6e87a338-column-720{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

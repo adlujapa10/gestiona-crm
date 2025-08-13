@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f1f3f4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#121516]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#111518] text-lg font-bold leading-tight tracking-[-0.015em]">
+               <a href="paneldecontrol.html">VentaNet</a>
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#121516] text-sm font-medium leading-normal" href="personas.html">Personas</a>
+              <a class="text-[#121516] text-sm font-medium leading-normal" href="usuarios.html">Usuarios</a>
+              <a class="text-[#121516] text-sm font-medium leading-normal" href="productos.html">Prodcutos</a>
+              <a class="text-[#121516] text-sm font-medium leading-normal" href="factura.html">Facturas</a>
+            </div>
+            <div
+              onclick="window.location.href='iniciodesesion.html';"
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBL9XPaaZOADQuWhFWyKXSrzDPmFxp5iHJOFCadB7KK_3GDwOltFWmmOLPG7S8e00O7x7uCBYinH0dDmomBFbV7Ys8GXs4umf1-BCTjguetcQhvwQIbHsnsnTHKHc4FXoo2VGZ_Vy-Rp75yRH3JSP-PaqQkA8vPPMK_c8hUaHP7Ji0YyoN1MmQEuX7nf36dTulWVnqCeUIsn0pLxpW3NmUglQ_R6YM_6IatrlkL7CSchFazYlCMDA7CgCTNaA_pZ63Ey_ZRpfRc-1Y");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#121516] tracking-light text-[32px] font-bold leading-tight">Panel de Control</p>
+                <p class="text-[#6a7881] text-sm font-normal leading-normal">Bienvenido, Sara</p>
+              </div>
+            </div>
+            <h3 class="text-[#121516] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Modulos Destacados</h3>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-white p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#121516] text-base font-bold leading-tight">Personas</p>
+                    <p class="text-[#6a7881] text-sm font-normal leading-normal">Total Personas: 25</p>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#f1f3f4] text-[#121516] text-sm font-medium leading-normal w-fit"
+                    onclick="window.location.href='personas.html';"
+                    >
+                    <span class="truncate">Administra Personas</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAT_oO8gCr9YP15qNGQ5NxQV7CzldqaVbo05VZqKKufcb8JL2_T4yfUoiVzzu3EIabDsqNrGiXCOcQo2SV5YmO_2LUtX1LrfJZ88D8WcvIHdUnELAHWVfUNh-XV1u15t1Xv9Nj9Cyy2YSqKLotWTmOo9HvqAlymCqWc1OsAKL-cEcSPV25sDY7sE_Tdsk8fZBjmuKOjT-QpcTXmKnAf8_PrbMIELgeuh5QH1Y9ULqTBbmb07TPbKSWFmKJVYKGR6ciXf_tnLe-QCpA");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-white p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#121516] text-base font-bold leading-tight">Usuarios</p>
+                    <p class="text-[#6a7881] text-sm font-normal leading-normal">Total Usuarios: 4</p>
+                  </div>
+                  <button
+                    onclick="window.location.href='usuarios.html';"
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#f1f3f4] text-[#121516] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Administra Usuarios</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA7Ggi1VxDLEPGfr9MmS0nhRHPIhHQ4A2yHuCWUJjiVmC3nXSgmapkS5eO3aQTgFvw-vbtJvzb6Qer6LaVkO3K14_3PtnWMmq0H5GTr0tspE5ERm8s7VmSY54UDxIjpT2pCNo766GvJSSaMoLIZAbjAhSJP_t7fy4dIjZcsBTfChOPUZpU98HH7f0hbKIS4wa0lbPsAWRxTo-M7F_6yfAzb4TSWx0u1fm0EXFX-G87XRcxFqrWYlenrmd2mOL0kyCN8KxHUnBTCjFE");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-white p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#121516] text-base font-bold leading-tight">Productos</p>
+                    <p class="text-[#6a7881] text-sm font-normal leading-normal">Total Productos: 500</p>
+                  </div>
+                  <button
+                    onclick="window.location.href='productos.html';"
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#f1f3f4] text-[#121516] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Administra Productos</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDyBzm1yYFbuL9mAY6QMPTGfddZM5p1R2lCfwHEqWK0sCZr6x9iBHDPUNKlxXa_IdeB3gOyQH0m3yzj6nEKuuu3sa9U2ERx9-4mwK_gOS-KsHrUP3E65grk03iuO6OqYadDd-bAFaWzV9S32BsQ-dTO-lpfqtK7vu8WIlrhs-hLrtXbzKvlmpSlI4gNFOc1Fb7sszLXggokEivHaBU8Abw_a7Fc_OYx_0U7g0fbLznX-_DUvF6u4rrCLVGdvVs679YDwtEGy9_38a8");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-white p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-[2_2_0px] flex-col gap-4">
+                  <div class="flex flex-col gap-1">
+                    <p class="text-[#121516] text-base font-bold leading-tight">Facturas</p>
+                    <p class="text-[#6a7881] text-sm font-normal leading-normal">Total Facturas: 300</p>
+                  </div>
+                  <button
+                    onclick="window.location.href='personas.html';"
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#f1f3f4] text-[#121516] text-sm font-medium leading-normal w-fit"
+                  >
+                    <span class="truncate">Administra Facturas</span>
+                  </button>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKoBPynzAUrLTIvCYvd9bWQ2FReeQNECoHdppOo6t_GP-KTR_SI0w8qBC5ARazRUVk6WqQN37GLga3uinK7h4Qs73tHyc87pOCRI-hVTmXrZJ8EwH-bqsWN91zR8qtATsvNqGICnjJMY7TdKSbB427e3-ig85CmsgRdll5DAZRXJQk1v62Kp9q7ks_GA9_7X6-2WW-qpVaH3hgRFaJfw_Ma3VIjnCn4czDg422pSViWsa37Bunad4f9buE5bigrcwVe00EPqBuSP0");'
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
