@@ -10,7 +10,7 @@ import java.sql.*;
  *
  * @author Lucia
  */
-public class crud {
+public class CrudPersona {
 
     public void insertarDato(int id, String nombre, String apellido, String cedula, String telefono, String email, int edad, String sexo, String rol) {
         String query = "insert into persona (id_persona, nombre, apellido, cedula, telefono, email, edad, sexo, rol) values (?,?,?,?,?,?,?,?,?)";

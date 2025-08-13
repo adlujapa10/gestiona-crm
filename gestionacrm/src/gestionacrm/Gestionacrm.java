@@ -18,7 +18,7 @@ public class Gestionacrm {
 //        dbConnection dbc=new dbConnection();
 //        dbc.conectar();
 
-        crud operaciones = new crud();
+        CrudPersona operaciones = new CrudPersona();
 //operaciones.insertarDato(4, "Andrea", "Suarez", "1193215557", "3008653095", "hola@gmail.com", 23, "F", "Cliente");
 //operaciones.leerDatos();
 //operaciones.actualizarDato(4,"Andrea", "Suarez", "1193215557", "3008653095", "hola@gmail.com", 23, "F", "vendedor");

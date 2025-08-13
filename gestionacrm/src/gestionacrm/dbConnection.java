@@ -21,8 +21,8 @@ public class dbConnection {
         try {
             connection = DriverManager.getConnection(url, user, pass);
             System.out.println("Conexion exitosa");
-        } catch (SQLException e) {
-            e.printStackTrace();
+        } catch (SQLException exception) {
+            exception.printStackTrace();
             System.out.println("Error de conexion");
         }
 
