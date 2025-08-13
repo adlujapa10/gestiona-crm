@@ -23,7 +23,7 @@ public class Gestionacrm {
 //operaciones.leerDatos();
 //operaciones.actualizarDato(4,"Andrea", "Suarez", "1193215557", "3008653095", "hola@gmail.com", 23, "F", "vendedor");
 //operaciones.leerDatos();
-        operaciones.eliminarDato(4);
+//operaciones.eliminarDato(4);
     }
 
 }

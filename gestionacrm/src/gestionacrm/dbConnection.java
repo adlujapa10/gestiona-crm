@@ -17,16 +17,16 @@ public class dbConnection {
     static String pass = "12345678";
 
     public static Connection conectar() {
-        Connection con = null;
+        Connection connection = null;
         try {
-            con = DriverManager.getConnection(url, user, pass);
+            connection = DriverManager.getConnection(url, user, pass);
             System.out.println("Conexion exitosa");
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("Error de conexion");
         }
 
-        return con;
+        return connection;
 
     }
 
